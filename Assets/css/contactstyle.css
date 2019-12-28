@@ -1,5 +1,12 @@
 body {
     background: url(../images/swirl_pattern.png); /* Background pattern from Toptal Subtle Patterns */
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+html{
+    height: 100%;
 }
 
 .name{
@@ -29,6 +36,7 @@ body {
     background-color: salmon;
     padding: 25px;
     border: 2px solid black;
+    margin-bottom: 40px;
 }
 
 .form-group{
@@ -43,4 +51,16 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     background-color: rgb(60, 40, 173);
     border: 1px solid black;
+}
+
+.footer{
+    height: 40px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: auto;
+    border-top: 2px solid black;
 }

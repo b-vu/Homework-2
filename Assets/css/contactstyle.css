@@ -13,7 +13,7 @@ body {
 }
 
 .fontStyle{
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Fredoka One', cursive;
 }
 
 .navbar-light{
@@ -27,6 +27,20 @@ body {
 
 .container{
     background-color: salmon;
-    padding: 15px;
+    padding: 25px;
     border: 2px solid black;
+}
+
+.form-group{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.form-control{
+    border: 2px solid black;
+}
+
+.btn{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: rgb(60, 40, 173);
+    border: 1px solid black;
 }

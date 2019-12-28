@@ -1,5 +1,5 @@
 body {
-    background: url(images/swirl_pattern.png); /* Background pattern from Toptal Subtle Patterns */
+    background: url(../images/swirl_pattern.png); /* Background pattern from Toptal Subtle Patterns */
 }
 
 .name{
@@ -18,19 +18,15 @@ body {
 
 .navbar-light{
     background-color: salmon;
+    border-bottom: 2px solid black;
 }
 
 .navbar{
     margin-bottom: 40px;
 }
 
-.biopic{
-    height: 300px;
-    width: 300px;
-    margin-right: 10px;
-}
-
 .container{
     background-color: salmon;
     padding: 15px;
+    border: 2px solid black;
 }

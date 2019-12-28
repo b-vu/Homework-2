@@ -1,0 +1,40 @@
+body {
+    background: url(images/swirl_pattern.png); /* Background pattern from Toptal Subtle Patterns */
+}
+
+.name{
+    font-family: 'Fredoka One', cursive;
+    font-size: 28px;
+    padding: 20px;
+}
+
+.nav-link{
+    font-family: 'Fredoka One', cursive;
+}
+
+.fontStyle{
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.navbar-light{
+    background-color: salmon;
+}
+
+.navbar{
+    margin-bottom: 40px;
+}
+
+.biopic{
+    height: 300px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.container{
+    background-color: salmon;
+    padding: 15px;
+}
+
+@media screen and (max-width: 768px){
+
+}
